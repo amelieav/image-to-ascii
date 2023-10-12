@@ -1,4 +1,4 @@
 Metadata-Version: 2.1
 Name: imageToAscii
 Version: 2.0.1
-Requires-Dist: Pillow
+Requires-Dist: PIL
