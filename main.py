@@ -30,7 +30,7 @@ def scale_image(image, width, height):
 # convert the resized grayscale image to ASCII art and save it to a text file
 def convert_to_ascii_art(image_path, output_text_file):
     grayscale_image = convert_image_to_grayscale(image_path)
-    scaled_image = scale_image(grayscale_image, 50, 20)
+    scaled_image = scale_image(grayscale_image, 50, 20) # adjust this if your ascii art seems too squished or stretched
     width, height = scaled_image.size
     ascii_art = ""
 
