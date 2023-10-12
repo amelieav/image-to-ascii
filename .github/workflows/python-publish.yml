@@ -17,11 +17,13 @@ permissions:
 
 jobs:
   deploy:
-
+    
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
+    - name: checkFiles
+      run: |
+        ls
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
