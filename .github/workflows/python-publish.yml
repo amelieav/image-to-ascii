@@ -22,10 +22,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: checkFiles
-      run:  |
-        ls /home/runner/work/imageToAscii/imageToAscii
-        ls /home/runner/work/imageToAscii
-        ls /home/runner/work/
+      run:  ls /home/runner/work/imageToAscii/imageToAscii
+
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
