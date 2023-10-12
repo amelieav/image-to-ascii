@@ -24,4 +24,5 @@ Icon-type images tend to produce better results compared to digital images and p
 ## Version History
 
 v1.0 - Initial release
+
 // TODO v1.1 - patch problem with transparent backgrounds in pngs
