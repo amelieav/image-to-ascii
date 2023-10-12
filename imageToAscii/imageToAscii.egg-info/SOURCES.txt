@@ -1,0 +1,6 @@
+setup.py
+imageToAscii.egg-info/PKG-INFO
+imageToAscii.egg-info/SOURCES.txt
+imageToAscii.egg-info/dependency_links.txt
+imageToAscii.egg-info/requires.txt
+imageToAscii.egg-info/top_level.txt
